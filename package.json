@@ -1,0 +1,16 @@
+{
+  "name": "calistenia-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calistenia 45: rutina de 45 minutos con registro de series",
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/app": "^8.1.0",
+    "@capacitor/core": "^8.6.0",
+    "@capacitor-community/keep-awake": "^8.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.0"
+  }
+}
