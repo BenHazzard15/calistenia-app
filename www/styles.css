@@ -149,7 +149,30 @@ textarea { width: 100%; min-height: 160px; background: var(--panel2); color: var
 .toggle.on { background: var(--accent); border-color: var(--accent); }
 .toggle.on::after { left: 23px; background: var(--accent-ink); }
 
-.toast { position: fixed; left: 50%; bottom: 96px; transform: translateX(-50%); background: #fff; color: #000; padding: 10px 16px; border-radius: 12px; font-weight: 700; z-index: 50; max-width: 90vw; text-align: center; }
+.toast { position: fixed; left: 50%; top: calc(16px + env(safe-area-inset-top)); transform: translateX(-50%); background: #fff; color: #000; padding: 10px 16px; border-radius: 12px; font-weight: 700; z-index: 50; max-width: 90vw; text-align: center; }
 
 .lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.94); z-index: 40; display: grid; place-items: center; padding: 16px; }
 .lightbox img { max-width: 100%; max-height: 80vh; border-radius: 12px; }
+
+/* v1.2: fases, control de codo, importación */
+.btn[disabled] { opacity: .5; }
+.notice { border-color: rgba(198,244,50,.4); margin-top: 16px; }
+.phasecard h2 { font-size: 18px; }
+.chips { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; }
+.chips button { padding: 10px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); font-weight: 800; font-size: 14px; text-align: left; }
+.chips button.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.chips button .s { display: block; font-size: 11px; font-weight: 600; opacity: .75; margin-top: 2px; }
+.exline .noimg { width: 52px; height: 40px; border-radius: 8px; background: var(--panel2); flex: none; }
+.grid11 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin-top: 10px; }
+.grid11 button { padding: 12px 0; border-radius: 12px; background: var(--panel2); border: 1px solid var(--line); font-weight: 800; font-size: 16px; }
+.grid11 button.mid { color: var(--warn); }
+.grid11 button.hi { color: var(--danger); }
+.grid11 button.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.grid11 button.on.mid { background: var(--warn); border-color: var(--warn); color: #1a1100; }
+.grid11 button.on.hi { background: var(--danger); border-color: var(--danger); color: #fff; }
+.lightbox .sheet { width: 100%; max-width: 520px; max-height: 88vh; overflow-y: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 16px; }
+.opt { display: block; width: 100%; text-align: left; padding: 12px; margin-top: 8px; border-radius: 14px; background: var(--panel2); border: 1px solid var(--line); }
+.opt b { display: block; font-size: 14px; }
+.opt.on { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.errlist { font-size: 13px; line-height: 1.45; color: var(--warn); max-height: 50vh; overflow-y: auto; }
+input[type=date] { background: var(--panel2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 8px; font: inherit; color-scheme: dark; }

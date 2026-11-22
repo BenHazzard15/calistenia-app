@@ -1,0 +1,2879 @@
+{
+ "name": "Recuperación de codo + Calistenia 45",
+ "phases": [
+  {
+   "code": "F0",
+   "name": "Fase 0 · Descarga",
+   "days": 4,
+   "gap": 0,
+   "elbow": true,
+   "desc": "Cero empuje y tracción de tren superior. Solo piernas, core sin apoyo en manos ni codos y movilidad sin carga.",
+   "criteria": "Molestia en el codo de 0–1/10 en reposo y al estirar el brazo.",
+   "sessions": [
+    {
+     "code": "F0-1",
+     "name": "Piernas y core 1",
+     "weekdays": [
+      1,
+      5
+     ],
+     "upper": false,
+     "focus": "Búlgara, peso muerto a una pierna y core",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "sentadilla-bulgara-con-mochila",
+         "name": "Sentadilla búlgara con mochila",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "bulgarian",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila puesta en la espalda con las dos tiras y manos libres: no sostengas peso con los brazos. Baja hasta casi tocar el suelo con la rodilla.",
+         "easier": "Sin peso.",
+         "harder": "Más peso en la mochila o bajada de 3 s.",
+         "safety": ""
+        },
+        {
+         "id": "dead-bug",
+         "name": "Dead bug",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": false,
+         "img": "deadbug",
+         "muscles": "Core profundo, abdomen",
+         "tips": "Boca arriba, zona lumbar pegada al suelo todo el tiempo. Estira brazo y pierna contrarios exhalando. Repeticiones por lado.",
+         "easier": "Mueve solo las piernas.",
+         "harder": "Pausa de 3 s estirado.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "peso-muerto-rumano-a-una-pierna",
+         "name": "Peso muerto rumano a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "sl_rdl",
+         "muscles": "Isquiotibiales, glúteos",
+         "tips": "Mochila en la espalda, no en la mano, para no cargar el codo. Cadera atrás, espalda neutra; siente el estiramiento atrás del muslo.",
+         "easier": "Punta del otro pie apoyada atrás para equilibrio.",
+         "harder": "Más peso o pausa de 2 s abajo.",
+         "safety": ""
+        },
+        {
+         "id": "hollow-body-hold",
+         "name": "Hollow body hold",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          20,
+          40
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": null,
+         "muscles": "Abdomen",
+         "tips": "Zona lumbar pegada al suelo, piernas y hombros despegados. Brazos estirados junto al cuerpo.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Brazos estirados sobre la cabeza.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "puente-de-gluteo-a-una-pierna",
+         "name": "Puente de glúteo a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "sl_bridge",
+         "muscles": "Glúteos, isquiotibiales",
+         "tips": "Espalda en el suelo y brazos relajados al costado, sin empujar con ellos. Pausa de 2 s arriba.",
+         "easier": "Con las dos piernas.",
+         "harder": "Espalda alta en el sofá (hip thrust) o pausa de 3 s.",
+         "safety": ""
+        },
+        {
+         "id": "sentadilla-isometrica-en-pared",
+         "name": "Sentadilla isométrica en pared",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          35,
+          45
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": null,
+         "muscles": "Cuádriceps",
+         "tips": "Espalda pegada a la pared y rodillas a 90°. Brazos sueltos: no apoyes las manos en los muslos.",
+         "easier": "Rodillas a 110–120°.",
+         "harder": "Una pierna más adelantada que la otra.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Pantorrillas",
+       "type": "single",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "elevacion-de-talones-a-una-pierna",
+         "name": "Elevación de talones a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          20
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "calf_raise",
+         "muscles": "Pantorrillas",
+         "tips": "En el borde de un escalón. Sube en 1 s y baja en 3 s hasta estirar bien. Apoya apenas un dedo en la pared para el equilibrio.",
+         "easier": "Con las dos piernas.",
+         "harder": "Mochila puesta o pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "F0-2",
+     "name": "Piernas y core 2",
+     "weekdays": [
+      3
+     ],
+     "upper": false,
+     "focus": "Step-up, sentadilla a una pierna, isquios y core",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "step-up-alto-con-mochila",
+         "name": "Step-up alto con mochila",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "stepup",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila en la espalda. Cajón o silla de 40–50 cm. Empuja solo con la pierna de arriba y baja en 3 s.",
+         "easier": "Cajón más bajo.",
+         "harder": "Más peso o cajón más alto.",
+         "safety": ""
+        },
+        {
+         "id": "elevacion-de-piernas-acostado",
+         "name": "Elevación de piernas acostado",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "leg_raise",
+         "muscles": "Abdomen, flexores de cadera",
+         "tips": "En el suelo, manos bajo los glúteos sin empujar. Sube las piernas rectas y baja en 3 s sin despegar la zona lumbar.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Bajada de 5 s o pausa a 10 cm del suelo.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "sentadilla-a-una-pierna-a-banco",
+         "name": "Sentadilla a una pierna a banco",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "box_pistol",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Siéntate controlado en un banco o silla con una pierna y sube sin impulso. Brazos al frente para equilibrar, sin agarrarte de nada.",
+         "easier": "Banco más alto.",
+         "harder": "Banco más bajo o mochila puesta.",
+         "safety": ""
+        },
+        {
+         "id": "crunch-inverso",
+         "name": "Crunch inverso",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "reverse_crunch",
+         "muscles": "Abdomen",
+         "tips": "Lleva las rodillas al pecho y despega la cadera del suelo enrollando la columna. Brazos al costado, sin empujar con las manos.",
+         "easier": "Rango más corto.",
+         "harder": "Pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "curl-de-isquio-deslizante",
+         "name": "Curl de isquio deslizante",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "slider_curl",
+         "muscles": "Isquiotibiales",
+         "tips": "Boca arriba, talones sobre una toalla en piso liso. Sube la cadera y arrastra los talones hacia ti; estira lento en 3 s. Brazos al costado sin empujar. La foto muestra la versión con balón.",
+         "easier": "Solo la fase de estirar las piernas lento.",
+         "harder": "A una pierna.",
+         "safety": ""
+        },
+        {
+         "id": "hollow-body-hold",
+         "name": "Hollow body hold",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          20,
+          40
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": null,
+         "muscles": "Abdomen",
+         "tips": "Zona lumbar pegada al suelo, piernas y hombros despegados. Brazos estirados junto al cuerpo.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Brazos estirados sobre la cabeza.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Pantorrillas",
+       "type": "single",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "elevacion-de-talones-a-una-pierna",
+         "name": "Elevación de talones a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          20
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "calf_raise",
+         "muscles": "Pantorrillas",
+         "tips": "En el borde de un escalón. Sube en 1 s y baja en 3 s hasta estirar bien. Apoya apenas un dedo en la pared para el equilibrio.",
+         "easier": "Con las dos piernas.",
+         "harder": "Mochila puesta o pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "warmup": [
+    {
+     "name": "Trote suave en el lugar",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "Sentadillas al aire lentas",
+     "dur": 60,
+     "img": "air_squat"
+    },
+    {
+     "name": "Círculos de brazos (10 adelante, 10 atrás)",
+     "dur": 30,
+     "img": "arm_circles"
+    },
+    {
+     "name": "Rotación de hombros con las manos en los hombros × 10",
+     "dur": 30,
+     "img": "elbow_circles"
+    },
+    {
+     "name": "Círculos de muñeca",
+     "dur": 30,
+     "img": "wrist_circles"
+    },
+    {
+     "name": "Codo sin carga: doblar y estirar suave × 10, sin dolor",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Antebrazo sin carga: girar palmas arriba y abajo × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Balanceos de pierna adelante-atrás y laterales × 10 por lado",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "Zancada con rotación de tronco, manos en la rodilla × 5 por lado",
+     "dur": 30,
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Puentes de glúteo con pausa × 10",
+     "dur": 30,
+     "img": "glute_bridge"
+    },
+    {
+     "name": "Rotación torácica de pie × 8 por lado",
+     "dur": 30,
+     "img": null
+    }
+   ],
+   "cooldown": [
+    {
+     "name": "Flexor de cadera en zancada, 30 s por lado",
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Pecho en marco de puerta, 30 s",
+     "img": null
+    },
+    {
+     "name": "Bíceps suave: brazo estirado atrás con la mano en la pared, 30 s, sin dolor",
+     "img": null
+    }
+   ]
+  },
+  {
+   "code": "F1",
+   "name": "Fase 1 · Isométricos suaves (25%)",
+   "days": 4,
+   "gap": 72,
+   "elbow": true,
+   "desc": "Solo isométricos suaves de tren superior, con el codo a medio recorrido. Cero cuelgues ni dominadas. Tren superior máximo 2 veces por semana, con 72 h entre sesiones.",
+   "criteria": "Isométricos con molestia de 2/10 o menos, y el codo igual o mejor al día siguiente.",
+   "sessions": [
+    {
+     "code": "F1-S",
+     "name": "Isométricos + piernas",
+     "weekdays": [
+      1,
+      5
+     ],
+     "upper": true,
+     "focus": "Isométricos de empuje y tracción, piernas",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "lagartija-isometrica-en-pared-o-meson",
+         "name": "Lagartija isométrica en pared o mesón",
+         "type": "time",
+         "sets": 4,
+         "range": [
+          20,
+          30
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "incline_pushup",
+         "muscles": "Pecho, tríceps (isométrico suave)",
+         "tips": "Manos en la pared o en un mesón, cuerpo recto e inclinado. Baja hasta que los codos queden a unos 45° y sostén ahí. Esfuerzo suave, 2–3 de 10. Respira normal.",
+         "easier": "Más cerca de la pared o con los codos menos doblados.",
+         "harder": "Algo más inclinado, sin bajar del mesón en esta fase.",
+         "safety": "Para si la molestia en el pliegue del codo pasa de 2/10."
+        },
+        {
+         "id": "sentadilla-bulgara-con-mochila",
+         "name": "Sentadilla búlgara con mochila",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "bulgarian",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila puesta en la espalda con las dos tiras y manos libres: no sostengas peso con los brazos. Baja hasta casi tocar el suelo con la rodilla.",
+         "easier": "Sin peso.",
+         "harder": "Más peso en la mochila o bajada de 3 s.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "remo-australiano-isometrico-casi-vertical",
+         "name": "Remo australiano isométrico casi vertical",
+         "type": "time",
+         "sets": 4,
+         "range": [
+          20,
+          30
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "inverted_row",
+         "muscles": "Espalda media, bíceps (isométrico suave)",
+         "tips": "Paralelas o barra baja, cuerpo casi vertical con los pies cerca de la barra. Agarre prono o neutro. Tira hasta la mitad del recorrido y sostén.",
+         "easier": "Más vertical o con los codos menos doblados.",
+         "harder": "Un poco más inclinado.",
+         "safety": "Nunca con las palmas hacia ti: el agarre supino carga más la inserción del bíceps. Para si la molestia pasa de 2/10."
+        },
+        {
+         "id": "peso-muerto-rumano-a-una-pierna",
+         "name": "Peso muerto rumano a una pierna",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "sl_rdl",
+         "muscles": "Isquiotibiales, glúteos",
+         "tips": "Mochila en la espalda, no en la mano, para no cargar el codo. Cadera atrás, espalda neutra; siente el estiramiento atrás del muslo.",
+         "easier": "Punta del otro pie apoyada atrás para equilibrio.",
+         "harder": "Más peso o pausa de 2 s abajo.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "puente-de-gluteo-a-una-pierna",
+         "name": "Puente de glúteo a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "sl_bridge",
+         "muscles": "Glúteos, isquiotibiales",
+         "tips": "Espalda en el suelo y brazos relajados al costado, sin empujar con ellos. Pausa de 2 s arriba.",
+         "easier": "Con las dos piernas.",
+         "harder": "Espalda alta en el sofá (hip thrust) o pausa de 3 s.",
+         "safety": ""
+        },
+        {
+         "id": "dead-bug",
+         "name": "Dead bug",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "deadbug",
+         "muscles": "Core profundo, abdomen",
+         "tips": "Boca arriba, zona lumbar pegada al suelo todo el tiempo. Estira brazo y pierna contrarios exhalando. Repeticiones por lado.",
+         "easier": "Mueve solo las piernas.",
+         "harder": "Pausa de 3 s estirado.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Pantorrillas",
+       "type": "single",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "elevacion-de-talones-a-una-pierna",
+         "name": "Elevación de talones a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          20
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "calf_raise",
+         "muscles": "Pantorrillas",
+         "tips": "En el borde de un escalón. Sube en 1 s y baja en 3 s hasta estirar bien. Apoya apenas un dedo en la pared para el equilibrio.",
+         "easier": "Con las dos piernas.",
+         "harder": "Mochila puesta o pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "F1-P",
+     "name": "Piernas y core",
+     "weekdays": [
+      3
+     ],
+     "upper": false,
+     "focus": "Step-up, sentadilla a una pierna, isquios y core",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "step-up-alto-con-mochila",
+         "name": "Step-up alto con mochila",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "stepup",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila en la espalda. Cajón o silla de 40–50 cm. Empuja solo con la pierna de arriba y baja en 3 s.",
+         "easier": "Cajón más bajo.",
+         "harder": "Más peso o cajón más alto.",
+         "safety": ""
+        },
+        {
+         "id": "elevacion-de-piernas-acostado",
+         "name": "Elevación de piernas acostado",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "leg_raise",
+         "muscles": "Abdomen, flexores de cadera",
+         "tips": "En el suelo, manos bajo los glúteos sin empujar. Sube las piernas rectas y baja en 3 s sin despegar la zona lumbar.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Bajada de 5 s o pausa a 10 cm del suelo.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "sentadilla-a-una-pierna-a-banco",
+         "name": "Sentadilla a una pierna a banco",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "box_pistol",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Siéntate controlado en un banco o silla con una pierna y sube sin impulso. Brazos al frente para equilibrar, sin agarrarte de nada.",
+         "easier": "Banco más alto.",
+         "harder": "Banco más bajo o mochila puesta.",
+         "safety": ""
+        },
+        {
+         "id": "crunch-inverso",
+         "name": "Crunch inverso",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "reverse_crunch",
+         "muscles": "Abdomen",
+         "tips": "Lleva las rodillas al pecho y despega la cadera del suelo enrollando la columna. Brazos al costado, sin empujar con las manos.",
+         "easier": "Rango más corto.",
+         "harder": "Pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "curl-de-isquio-deslizante",
+         "name": "Curl de isquio deslizante",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "slider_curl",
+         "muscles": "Isquiotibiales",
+         "tips": "Boca arriba, talones sobre una toalla en piso liso. Sube la cadera y arrastra los talones hacia ti; estira lento en 3 s. Brazos al costado sin empujar. La foto muestra la versión con balón.",
+         "easier": "Solo la fase de estirar las piernas lento.",
+         "harder": "A una pierna.",
+         "safety": ""
+        },
+        {
+         "id": "hollow-body-hold",
+         "name": "Hollow body hold",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          20,
+          40
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": null,
+         "muscles": "Abdomen",
+         "tips": "Zona lumbar pegada al suelo, piernas y hombros despegados. Brazos estirados junto al cuerpo.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Brazos estirados sobre la cabeza.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Pantorrillas",
+       "type": "single",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "elevacion-de-talones-a-una-pierna",
+         "name": "Elevación de talones a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          20
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "calf_raise",
+         "muscles": "Pantorrillas",
+         "tips": "En el borde de un escalón. Sube en 1 s y baja en 3 s hasta estirar bien. Apoya apenas un dedo en la pared para el equilibrio.",
+         "easier": "Con las dos piernas.",
+         "harder": "Mochila puesta o pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "warmup": [
+    {
+     "name": "Trote suave en el lugar",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "Sentadillas al aire lentas",
+     "dur": 60,
+     "img": "air_squat"
+    },
+    {
+     "name": "Círculos de brazos (10 adelante, 10 atrás)",
+     "dur": 30,
+     "img": "arm_circles"
+    },
+    {
+     "name": "Rotación de hombros con las manos en los hombros × 10",
+     "dur": 30,
+     "img": "elbow_circles"
+    },
+    {
+     "name": "Círculos de muñeca",
+     "dur": 30,
+     "img": "wrist_circles"
+    },
+    {
+     "name": "Codo sin carga: doblar y estirar suave × 10, sin dolor",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Antebrazo sin carga: girar palmas arriba y abajo × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Balanceos de pierna adelante-atrás y laterales × 10 por lado",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "Zancada con rotación de tronco, manos en la rodilla × 5 por lado",
+     "dur": 30,
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Puentes de glúteo con pausa × 10",
+     "dur": 30,
+     "img": "glute_bridge"
+    },
+    {
+     "name": "Rotación torácica de pie × 8 por lado",
+     "dur": 30,
+     "img": null
+    }
+   ],
+   "cooldown": [
+    {
+     "name": "Flexor de cadera en zancada, 30 s por lado",
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Pecho en marco de puerta, 30 s",
+     "img": null
+    },
+    {
+     "name": "Bíceps suave: brazo estirado atrás con la mano en la pared, 30 s, sin dolor",
+     "img": null
+    }
+   ]
+  },
+  {
+   "code": "F2",
+   "name": "Fase 2 · Excéntricos controlados (45%)",
+   "days": 7,
+   "gap": 72,
+   "elbow": true,
+   "desc": "Lagartijas inclinadas con bajada de 3 s, remo australiano a 45° y cuelgues pasivos. Sin dominadas ni fondos. Tren superior máximo 2 veces por semana, con 72 h entre sesiones.",
+   "criteria": "Molestia de 2/10 o menos durante las 2 sesiones de tren superior, y el codo igual o mejor al día siguiente.",
+   "sessions": [
+    {
+     "code": "F2-S",
+     "name": "Tren superior + piernas",
+     "weekdays": [
+      1,
+      5
+     ],
+     "upper": true,
+     "focus": "Excéntricos de empuje, remo a 45°, cuelgue y piernas",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "lagartija-inclinada-en-banco-bajada-3-s",
+         "name": "Lagartija inclinada en banco (bajada 3 s)",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          10
+         ],
+         "perLeg": false,
+         "rest": 75,
+         "load": false,
+         "img": "incline_pushup",
+         "muscles": "Pecho, tríceps",
+         "tips": "Manos en un banco o silla firme. Baja contando 3 s hasta donde no haya molestia y sube a ritmo normal. Deja 3 o más repeticiones en reserva.",
+         "easier": "Superficie más alta (mesón).",
+         "harder": "Superficie más baja, solo si no hay molestia.",
+         "safety": "Si el pliegue del codo molesta abajo, acorta el rango."
+        },
+        {
+         "id": "sentadilla-bulgara-con-mochila",
+         "name": "Sentadilla búlgara con mochila",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "bulgarian",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila puesta en la espalda con las dos tiras y manos libres: no sostengas peso con los brazos. Baja hasta casi tocar el suelo con la rodilla.",
+         "easier": "Sin peso.",
+         "harder": "Más peso en la mochila o bajada de 3 s.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "remo-australiano-prono",
+         "name": "Remo australiano prono",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          10
+         ],
+         "perLeg": false,
+         "rest": 75,
+         "load": false,
+         "img": "inverted_row",
+         "muscles": "Espalda media, romboides, deltoide posterior",
+         "tips": "Cuerpo a unos 45°, agarre prono o neutro. Sube en 2 s, pausa breve y baja en 3 s.",
+         "easier": "Cuerpo más vertical.",
+         "harder": "Más horizontal, recién en la Fase 3.",
+         "safety": "Nada de agarre supino durante la recuperación."
+        },
+        {
+         "id": "peso-muerto-rumano-a-una-pierna",
+         "name": "Peso muerto rumano a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "sl_rdl",
+         "muscles": "Isquiotibiales, glúteos",
+         "tips": "Mochila en la espalda, no en la mano, para no cargar el codo. Cadera atrás, espalda neutra; siente el estiramiento atrás del muslo.",
+         "easier": "Punta del otro pie apoyada atrás para equilibrio.",
+         "harder": "Más peso o pausa de 2 s abajo.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "cuelgue-pasivo-suave",
+         "name": "Cuelgue pasivo suave",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          15,
+          20
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "scap_pull",
+         "muscles": "Hombros, antebrazos, descompresión",
+         "tips": "Cuélgate relajado con los brazos completamente estirados. Si molesta, deja los pies apoyados en una silla para descargar parte del peso.",
+         "easier": "Más peso sobre los pies.",
+         "harder": "Sin apoyo de los pies.",
+         "safety": "No dobles los codos durante el cuelgue."
+        },
+        {
+         "id": "dead-bug",
+         "name": "Dead bug",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "deadbug",
+         "muscles": "Core profundo, abdomen",
+         "tips": "Boca arriba, zona lumbar pegada al suelo todo el tiempo. Estira brazo y pierna contrarios exhalando. Repeticiones por lado.",
+         "easier": "Mueve solo las piernas.",
+         "harder": "Pausa de 3 s estirado.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Pantorrillas",
+       "type": "single",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "elevacion-de-talones-a-una-pierna",
+         "name": "Elevación de talones a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          20
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "calf_raise",
+         "muscles": "Pantorrillas",
+         "tips": "En el borde de un escalón. Sube en 1 s y baja en 3 s hasta estirar bien. Apoya apenas un dedo en la pared para el equilibrio.",
+         "easier": "Con las dos piernas.",
+         "harder": "Mochila puesta o pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "F2-P",
+     "name": "Piernas y core",
+     "weekdays": [
+      3
+     ],
+     "upper": false,
+     "focus": "Step-up, sentadilla a una pierna, isquios y core",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "step-up-alto-con-mochila",
+         "name": "Step-up alto con mochila",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "stepup",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila en la espalda. Cajón o silla de 40–50 cm. Empuja solo con la pierna de arriba y baja en 3 s.",
+         "easier": "Cajón más bajo.",
+         "harder": "Más peso o cajón más alto.",
+         "safety": ""
+        },
+        {
+         "id": "elevacion-de-piernas-acostado",
+         "name": "Elevación de piernas acostado",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "leg_raise",
+         "muscles": "Abdomen, flexores de cadera",
+         "tips": "En el suelo, manos bajo los glúteos sin empujar. Sube las piernas rectas y baja en 3 s sin despegar la zona lumbar.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Bajada de 5 s o pausa a 10 cm del suelo.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "sentadilla-a-una-pierna-a-banco",
+         "name": "Sentadilla a una pierna a banco",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "box_pistol",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Siéntate controlado en un banco o silla con una pierna y sube sin impulso. Brazos al frente para equilibrar, sin agarrarte de nada.",
+         "easier": "Banco más alto.",
+         "harder": "Banco más bajo o mochila puesta.",
+         "safety": ""
+        },
+        {
+         "id": "crunch-inverso",
+         "name": "Crunch inverso",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "reverse_crunch",
+         "muscles": "Abdomen",
+         "tips": "Lleva las rodillas al pecho y despega la cadera del suelo enrollando la columna. Brazos al costado, sin empujar con las manos.",
+         "easier": "Rango más corto.",
+         "harder": "Pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "curl-de-isquio-deslizante",
+         "name": "Curl de isquio deslizante",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "slider_curl",
+         "muscles": "Isquiotibiales",
+         "tips": "Boca arriba, talones sobre una toalla en piso liso. Sube la cadera y arrastra los talones hacia ti; estira lento en 3 s. Brazos al costado sin empujar. La foto muestra la versión con balón.",
+         "easier": "Solo la fase de estirar las piernas lento.",
+         "harder": "A una pierna.",
+         "safety": ""
+        },
+        {
+         "id": "hollow-body-hold",
+         "name": "Hollow body hold",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          20,
+          40
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": null,
+         "muscles": "Abdomen",
+         "tips": "Zona lumbar pegada al suelo, piernas y hombros despegados. Brazos estirados junto al cuerpo.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Brazos estirados sobre la cabeza.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Pantorrillas",
+       "type": "single",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "elevacion-de-talones-a-una-pierna",
+         "name": "Elevación de talones a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          20
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "calf_raise",
+         "muscles": "Pantorrillas",
+         "tips": "En el borde de un escalón. Sube en 1 s y baja en 3 s hasta estirar bien. Apoya apenas un dedo en la pared para el equilibrio.",
+         "easier": "Con las dos piernas.",
+         "harder": "Mochila puesta o pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "warmup": [
+    {
+     "name": "Trote suave en el lugar",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "Sentadillas al aire lentas",
+     "dur": 60,
+     "img": "air_squat"
+    },
+    {
+     "name": "Círculos de brazos (10 adelante, 10 atrás)",
+     "dur": 30,
+     "img": "arm_circles"
+    },
+    {
+     "name": "Rotación de hombros con las manos en los hombros × 10",
+     "dur": 30,
+     "img": "elbow_circles"
+    },
+    {
+     "name": "Círculos de muñeca",
+     "dur": 30,
+     "img": "wrist_circles"
+    },
+    {
+     "name": "Codo sin carga: doblar y estirar suave × 10, sin dolor",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Antebrazo sin carga: girar palmas arriba y abajo × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Dislocaciones de hombro con banda suave × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Band pull-aparts con banda suave × 10 (codos rectos)",
+     "dur": 30,
+     "img": "pull_apart"
+    },
+    {
+     "name": "Balanceos de pierna adelante-atrás y laterales × 10 por lado",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "World's greatest stretch × 5 por lado",
+     "dur": 30,
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Puentes de glúteo con pausa × 10",
+     "dur": 30,
+     "img": "glute_bridge"
+    },
+    {
+     "name": "Gato-camello × 8",
+     "dur": 30,
+     "img": "cat"
+    }
+   ],
+   "cooldown": [
+    {
+     "name": "Flexor de cadera en zancada, 30 s por lado",
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Pecho en marco de puerta, 30 s",
+     "img": null
+    },
+    {
+     "name": "Bíceps suave: brazo estirado atrás con la mano en la pared, 30 s, sin dolor",
+     "img": null
+    }
+   ]
+  },
+  {
+   "code": "F3",
+   "name": "Fase 3 · Carga progresiva (70%)",
+   "days": 7,
+   "gap": 72,
+   "elbow": true,
+   "desc": "Flexiones en suelo sin llegar al fallo y dominadas asistidas con banda o negativas lentas, 3×4–5. Nada explosivo ni trucos. Tren superior máximo 2 veces por semana, con 72 h entre sesiones.",
+   "criteria": "Molestia de 2/10 o menos en flexiones y dominadas asistidas, y el codo igual o mejor al día siguiente.",
+   "sessions": [
+    {
+     "code": "F3-S",
+     "name": "Tren superior + piernas",
+     "weekdays": [
+      1,
+      5
+     ],
+     "upper": true,
+     "focus": "Dominada asistida, flexiones, remo y piernas",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "dominada-asistida-con-banda",
+         "name": "Dominada asistida con banda",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          4,
+          5
+         ],
+         "perLeg": false,
+         "rest": 90,
+         "load": false,
+         "img": "band_pullup",
+         "muscles": "Dorsal ancho, bíceps",
+         "tips": "Agarre prono y banda gruesa bajo las rodillas. Sube controlado y baja en 3 s. Alternativa: solo negativas de 5 s, subiendo con ayuda de una silla.",
+         "easier": "Banda más gruesa o solo negativas.",
+         "harder": "Banda más delgada.",
+         "safety": "Prohibido el agarre supino, el impulso y los trucos. Deja 2–3 repeticiones en reserva."
+        },
+        {
+         "id": "sentadilla-bulgara-con-mochila",
+         "name": "Sentadilla búlgara con mochila",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "bulgarian",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila puesta en la espalda con las dos tiras y manos libres: no sostengas peso con los brazos. Baja hasta casi tocar el suelo con la rodilla.",
+         "easier": "Sin peso.",
+         "harder": "Más peso en la mochila o bajada de 3 s.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "flexiones-estrictas-en-suelo",
+         "name": "Flexiones estrictas en suelo",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": false,
+         "rest": 75,
+         "load": false,
+         "img": "pushup",
+         "muscles": "Pecho, tríceps, hombro",
+         "tips": "Cuerpo en tabla y codos a unos 45°. Baja hasta un rango sin molestia. Termina cada serie con 2–3 repeticiones en reserva.",
+         "easier": "Manos en un banco.",
+         "harder": "Más repeticiones; nada de déficit ni explosivas todavía.",
+         "safety": "Sin llegar al fallo."
+        },
+        {
+         "id": "peso-muerto-rumano-a-una-pierna",
+         "name": "Peso muerto rumano a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "sl_rdl",
+         "muscles": "Isquiotibiales, glúteos",
+         "tips": "Mochila en la espalda, no en la mano, para no cargar el codo. Cadera atrás, espalda neutra; siente el estiramiento atrás del muslo.",
+         "easier": "Punta del otro pie apoyada atrás para equilibrio.",
+         "harder": "Más peso o pausa de 2 s abajo.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "remo-australiano-prono",
+         "name": "Remo australiano prono",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          10
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "inverted_row",
+         "muscles": "Espalda media, romboides, deltoide posterior",
+         "tips": "Cuerpo entre 30° y 45°, agarre prono o neutro. Sube en 2 s, pausa breve y baja en 3 s.",
+         "easier": "Cuerpo más vertical.",
+         "harder": "Cuerpo más horizontal.",
+         "safety": "Nada de agarre supino durante la recuperación."
+        },
+        {
+         "id": "hollow-body-hold",
+         "name": "Hollow body hold",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          20,
+          40
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": null,
+         "muscles": "Abdomen",
+         "tips": "Zona lumbar pegada al suelo, piernas y hombros despegados. Brazos estirados junto al cuerpo.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Brazos estirados sobre la cabeza.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Cuelgue",
+       "type": "single",
+       "rounds": 2,
+       "items": [
+        {
+         "id": "cuelgue-pasivo-suave",
+         "name": "Cuelgue pasivo suave",
+         "type": "time",
+         "sets": 2,
+         "range": [
+          20,
+          30
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "scap_pull",
+         "muscles": "Hombros, antebrazos, descompresión",
+         "tips": "Cuélgate relajado con los brazos completamente estirados. Si molesta, deja los pies apoyados en una silla para descargar parte del peso.",
+         "easier": "Más peso sobre los pies.",
+         "harder": "Sin apoyo de los pies.",
+         "safety": "No dobles los codos durante el cuelgue."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "F3-P",
+     "name": "Piernas y core",
+     "weekdays": [
+      3
+     ],
+     "upper": false,
+     "focus": "Step-up, sentadilla a una pierna, isquios y core",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "step-up-alto-con-mochila",
+         "name": "Step-up alto con mochila",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "stepup",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila en la espalda. Cajón o silla de 40–50 cm. Empuja solo con la pierna de arriba y baja en 3 s.",
+         "easier": "Cajón más bajo.",
+         "harder": "Más peso o cajón más alto.",
+         "safety": ""
+        },
+        {
+         "id": "elevacion-de-piernas-acostado",
+         "name": "Elevación de piernas acostado",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "leg_raise",
+         "muscles": "Abdomen, flexores de cadera",
+         "tips": "En el suelo, manos bajo los glúteos sin empujar. Sube las piernas rectas y baja en 3 s sin despegar la zona lumbar.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Bajada de 5 s o pausa a 10 cm del suelo.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "sentadilla-a-una-pierna-a-banco",
+         "name": "Sentadilla a una pierna a banco",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "box_pistol",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Siéntate controlado en un banco o silla con una pierna y sube sin impulso. Brazos al frente para equilibrar, sin agarrarte de nada.",
+         "easier": "Banco más alto.",
+         "harder": "Banco más bajo o mochila puesta.",
+         "safety": ""
+        },
+        {
+         "id": "crunch-inverso",
+         "name": "Crunch inverso",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "reverse_crunch",
+         "muscles": "Abdomen",
+         "tips": "Lleva las rodillas al pecho y despega la cadera del suelo enrollando la columna. Brazos al costado, sin empujar con las manos.",
+         "easier": "Rango más corto.",
+         "harder": "Pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "curl-nordico-asistido",
+         "name": "Curl nórdico asistido",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          3,
+          5
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "nordic",
+         "muscles": "Isquiotibiales",
+         "tips": "De rodillas, talones trabados bajo un mueble. Baja en 3–5 s con la cadera estirada y recíbete con las manos solo al final.",
+         "easier": "Banda en la barra enganchada al pecho para frenar, o rango corto.",
+         "harder": "Bajada más lenta.",
+         "safety": "Si recibirte con las manos molesta el codo, frena con la banda y no llegues al suelo. Nunca al fallo."
+        },
+        {
+         "id": "hollow-body-hold",
+         "name": "Hollow body hold",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          20,
+          40
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": null,
+         "muscles": "Abdomen",
+         "tips": "Zona lumbar pegada al suelo, piernas y hombros despegados. Brazos estirados junto al cuerpo.",
+         "easier": "Rodillas dobladas.",
+         "harder": "Brazos estirados sobre la cabeza.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Pantorrillas",
+       "type": "single",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "elevacion-de-talones-a-una-pierna",
+         "name": "Elevación de talones a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          20
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "calf_raise",
+         "muscles": "Pantorrillas",
+         "tips": "En el borde de un escalón. Sube en 1 s y baja en 3 s hasta estirar bien. Apoya apenas un dedo en la pared para el equilibrio.",
+         "easier": "Con las dos piernas.",
+         "harder": "Mochila puesta o pausa de 2 s arriba.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "warmup": [
+    {
+     "name": "Trote suave en el lugar",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "Sentadillas al aire lentas",
+     "dur": 60,
+     "img": "air_squat"
+    },
+    {
+     "name": "Círculos de brazos (10 adelante, 10 atrás)",
+     "dur": 30,
+     "img": "arm_circles"
+    },
+    {
+     "name": "Rotación de hombros con las manos en los hombros × 10",
+     "dur": 30,
+     "img": "elbow_circles"
+    },
+    {
+     "name": "Círculos de muñeca",
+     "dur": 30,
+     "img": "wrist_circles"
+    },
+    {
+     "name": "Codo sin carga: doblar y estirar suave × 10, sin dolor",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Antebrazo sin carga: girar palmas arriba y abajo × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Dislocaciones de hombro con banda suave × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Band pull-aparts con banda suave × 10 (codos rectos)",
+     "dur": 30,
+     "img": "pull_apart"
+    },
+    {
+     "name": "Colgado relajado 20–30 s",
+     "dur": 30,
+     "img": "scap_pull"
+    },
+    {
+     "name": "Balanceos de pierna adelante-atrás y laterales × 10 por lado",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "World's greatest stretch × 5 por lado",
+     "dur": 30,
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Puentes de glúteo con pausa × 10",
+     "dur": 30,
+     "img": "glute_bridge"
+    },
+    {
+     "name": "Gato-camello × 8",
+     "dur": 30,
+     "img": "cat"
+    }
+   ],
+   "cooldown": [
+    {
+     "name": "Flexor de cadera en zancada, 30 s por lado",
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Pecho en marco de puerta, 30 s",
+     "img": null
+    },
+    {
+     "name": "Bíceps suave: brazo estirado atrás con la mano en la pared, 30 s, sin dolor",
+     "img": null
+    },
+    {
+     "name": "Dorsal colgado de la barra, 30 s",
+     "img": "scap_pull"
+    }
+   ]
+  },
+  {
+   "code": "F4",
+   "name": "Fase 4 · Retorno (90%)",
+   "days": 7,
+   "gap": 0,
+   "elbow": true,
+   "desc": "Vuelven las dominadas libres estrictas con 2–3 repeticiones en reserva y los fondos asistidos. Todavía sin chin-ups, curl de bíceps ni bloque 3/7. Trucos dinámicos solo al final de la semana y solo con 0 molestia.",
+   "criteria": "Toda la semana con 0–1/10 de molestia, y el codo igual o mejor al día siguiente.",
+   "sessions": [
+    {
+     "code": "F4-A",
+     "name": "Día A · retorno",
+     "weekdays": [
+      1
+     ],
+     "upper": true,
+     "focus": "Dominadas estrictas, fondos con banda, búlgara y nórdico",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "dominadas-pronas",
+         "name": "Dominadas pronas",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          4,
+          6
+         ],
+         "perLeg": false,
+         "rest": 90,
+         "load": true,
+         "img": "pullups",
+         "muscles": "Dorsal ancho, bíceps, espalda media",
+         "tips": "Estrictas, desde colgado completo y sin balanceo. Termina cada serie con 2–3 repeticiones en reserva.",
+         "easier": "Banda delgada o negativas lentas.",
+         "harder": "Aún no: el peso extra vuelve en la rutina normal.",
+         "safety": "RIR 2–3. Si el codo molesta, vuelve a las dominadas con banda."
+        },
+        {
+         "id": "fondos-asistidos-con-banda",
+         "name": "Fondos asistidos con banda",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          8
+         ],
+         "perLeg": false,
+         "rest": 90,
+         "load": false,
+         "img": "dips",
+         "muscles": "Pecho inferior, tríceps",
+         "tips": "Banda entre las paralelas bajo las rodillas. Baja solo hasta que el codo llegue a 90°.",
+         "easier": "Banda más gruesa.",
+         "harder": "Banda más delgada; los fondos libres vuelven en la rutina normal.",
+         "safety": "RIR 3: lejos del fallo."
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "sentadilla-bulgara-con-mochila",
+         "name": "Sentadilla búlgara con mochila",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "bulgarian",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila puesta en la espalda con las dos tiras y manos libres: no sostengas peso con los brazos. Baja hasta casi tocar el suelo con la rodilla.",
+         "easier": "Sin peso.",
+         "harder": "Más peso en la mochila o bajada de 3 s.",
+         "safety": ""
+        },
+        {
+         "id": "flexiones-con-pies-en-silla",
+         "name": "Flexiones con pies en silla",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "decline_pushup",
+         "muscles": "Hombro anterior, pecho superior, tríceps",
+         "tips": "Pies en una silla y cuerpo recto. Termina con 2–3 repeticiones en reserva.",
+         "easier": "Pies en el suelo.",
+         "harder": "Silla más alta.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "curl-nordico-asistido",
+         "name": "Curl nórdico asistido",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          3,
+          6
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "nordic",
+         "muscles": "Isquiotibiales",
+         "tips": "De rodillas, talones trabados bajo un mueble. Baja en 3–5 s con la cadera estirada y recíbete con las manos solo al final.",
+         "easier": "Banda en la barra enganchada al pecho para frenar, o rango corto.",
+         "harder": "Bajada más lenta.",
+         "safety": "Si recibirte con las manos molesta el codo, frena con la banda y no llegues al suelo. Nunca al fallo."
+        },
+        {
+         "id": "elevacion-de-rodillas-colgado",
+         "name": "Elevación de rodillas colgado",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "hanging_raise",
+         "muscles": "Abdomen, flexores de cadera",
+         "tips": "Colgado con brazos estirados, sube las rodillas al pecho sin balanceo y baja lento.",
+         "easier": "Acostado en el suelo.",
+         "harder": "Piernas rectas (en la rutina normal).",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "F4-B",
+     "name": "Día B · retorno",
+     "weekdays": [
+      3
+     ],
+     "upper": true,
+     "focus": "Remo, flexiones, step-up y peso muerto a una pierna",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "remo-australiano-prono",
+         "name": "Remo australiano prono",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": false,
+         "rest": 70,
+         "load": false,
+         "img": "inverted_row",
+         "muscles": "Espalda media, romboides, deltoide posterior",
+         "tips": "Agarre prono o neutro. Sube en 2 s, pausa breve con el pecho cerca de la barra y baja en 3 s.",
+         "easier": "Cuerpo más vertical.",
+         "harder": "Cuerpo más horizontal.",
+         "safety": "Nada de agarre supino durante la recuperación."
+        },
+        {
+         "id": "flexiones-estrictas-en-suelo",
+         "name": "Flexiones estrictas en suelo",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": false,
+         "rest": 70,
+         "load": false,
+         "img": "pushup",
+         "muscles": "Pecho, tríceps, hombro",
+         "tips": "Cuerpo en tabla y codos a unos 45°. Baja hasta un rango sin molestia. Termina cada serie con 2–3 repeticiones en reserva.",
+         "easier": "Manos en un banco.",
+         "harder": "Más repeticiones; nada de déficit ni explosivas todavía.",
+         "safety": "Sin llegar al fallo."
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "step-up-alto-con-mochila",
+         "name": "Step-up alto con mochila",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "stepup",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Mochila en la espalda. Cajón o silla de 40–50 cm. Empuja solo con la pierna de arriba y baja en 3 s.",
+         "easier": "Cajón más bajo.",
+         "harder": "Más peso o cajón más alto.",
+         "safety": ""
+        },
+        {
+         "id": "face-pull-con-banda",
+         "name": "Face pull con banda",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "facepull",
+         "muscles": "Deltoide posterior, manguito rotador",
+         "tips": "Banda suave anclada a la barra o paralela. Tira hacia la frente con los codos altos y rota los brazos hacia afuera al final.",
+         "easier": "Banda más suave.",
+         "harder": "Banda más dura.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "peso-muerto-rumano-a-una-pierna",
+         "name": "Peso muerto rumano a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": true,
+         "img": "sl_rdl",
+         "muscles": "Isquiotibiales, glúteos",
+         "tips": "Mochila en la espalda, no en la mano, para no cargar el codo. Cadera atrás, espalda neutra; siente el estiramiento atrás del muslo.",
+         "easier": "Punta del otro pie apoyada atrás para equilibrio.",
+         "harder": "Más peso o pausa de 2 s abajo.",
+         "safety": ""
+        },
+        {
+         "id": "dead-bug",
+         "name": "Dead bug",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "deadbug",
+         "muscles": "Core profundo, abdomen",
+         "tips": "Boca arriba, zona lumbar pegada al suelo todo el tiempo. Estira brazo y pierna contrarios exhalando. Repeticiones por lado.",
+         "easier": "Mueve solo las piernas.",
+         "harder": "Pausa de 3 s estirado.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "F4-C",
+     "name": "Día C · retorno",
+     "weekdays": [
+      5
+     ],
+     "upper": true,
+     "focus": "Dominadas estrictas, fondos con banda, sentadilla a una pierna y hip thrust",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "dominadas-pronas",
+         "name": "Dominadas pronas",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          4,
+          6
+         ],
+         "perLeg": false,
+         "rest": 90,
+         "load": true,
+         "img": "pullups",
+         "muscles": "Dorsal ancho, bíceps, espalda media",
+         "tips": "Estrictas, desde colgado completo y sin balanceo. Termina cada serie con 2–3 repeticiones en reserva.",
+         "easier": "Banda delgada o negativas lentas.",
+         "harder": "Aún no: el peso extra vuelve en la rutina normal.",
+         "safety": "RIR 2–3. Si el codo molesta, vuelve a las dominadas con banda."
+        },
+        {
+         "id": "fondos-asistidos-con-banda",
+         "name": "Fondos asistidos con banda",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          8
+         ],
+         "perLeg": false,
+         "rest": 90,
+         "load": false,
+         "img": "dips",
+         "muscles": "Pecho inferior, tríceps",
+         "tips": "Banda entre las paralelas bajo las rodillas. Baja solo hasta que el codo llegue a 90°.",
+         "easier": "Banda más gruesa.",
+         "harder": "Banda más delgada; los fondos libres vuelven en la rutina normal.",
+         "safety": "RIR 3: lejos del fallo."
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "sentadilla-a-una-pierna-a-banco",
+         "name": "Sentadilla a una pierna a banco",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "box_pistol",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Siéntate controlado en un banco o silla con una pierna y sube sin impulso. Brazos al frente para equilibrar, sin agarrarte de nada.",
+         "easier": "Banco más alto.",
+         "harder": "Banco más bajo o mochila puesta.",
+         "safety": ""
+        },
+        {
+         "id": "remo-australiano-prono",
+         "name": "Remo australiano prono",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "inverted_row",
+         "muscles": "Espalda media, romboides, deltoide posterior",
+         "tips": "Agarre prono o neutro. Sube en 2 s, pausa breve con el pecho cerca de la barra y baja en 3 s.",
+         "easier": "Cuerpo más vertical.",
+         "harder": "Cuerpo más horizontal.",
+         "safety": "Nada de agarre supino durante la recuperación."
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "hip-thrust-a-una-pierna-con-mochila",
+         "name": "Hip thrust a una pierna con mochila",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": true,
+         "img": "hip_thrust",
+         "muscles": "Glúteos, isquiotibiales",
+         "tips": "Espalda alta en el sofá o banco, mochila sobre la cadera. Pausa de 2 s arriba. La foto muestra la versión con barra.",
+         "easier": "Con las dos piernas.",
+         "harder": "Más peso o pausa de 3 s.",
+         "safety": ""
+        },
+        {
+         "id": "tuck-l-sit-en-paralelas",
+         "name": "Tuck L-sit en paralelas",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          15,
+          25
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "tuck_lsit",
+         "muscles": "Core, flexores de cadera, tríceps",
+         "tips": "Brazos rectos en las paralelas, empújalas hacia abajo y sube las rodillas.",
+         "easier": "Una pierna estirada a la vez.",
+         "harder": "L-sit completo.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "warmup": [
+    {
+     "name": "Trote suave en el lugar",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "Sentadillas al aire lentas",
+     "dur": 60,
+     "img": "air_squat"
+    },
+    {
+     "name": "Círculos de brazos (10 adelante, 10 atrás)",
+     "dur": 30,
+     "img": "arm_circles"
+    },
+    {
+     "name": "Rotación de hombros con las manos en los hombros × 10",
+     "dur": 30,
+     "img": "elbow_circles"
+    },
+    {
+     "name": "Círculos de muñeca",
+     "dur": 30,
+     "img": "wrist_circles"
+    },
+    {
+     "name": "Codo sin carga: doblar y estirar suave × 10, sin dolor",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Antebrazo sin carga: girar palmas arriba y abajo × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Dislocaciones de hombro con banda suave × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Band pull-aparts con banda suave × 10 (codos rectos)",
+     "dur": 30,
+     "img": "pull_apart"
+    },
+    {
+     "name": "Colgado relajado 20–30 s",
+     "dur": 30,
+     "img": "scap_pull"
+    },
+    {
+     "name": "Balanceos de pierna adelante-atrás y laterales × 10 por lado",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "World's greatest stretch × 5 por lado",
+     "dur": 30,
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Puentes de glúteo con pausa × 10",
+     "dur": 30,
+     "img": "glute_bridge"
+    },
+    {
+     "name": "Gato-camello × 8",
+     "dur": 30,
+     "img": "cat"
+    }
+   ],
+   "cooldown": [
+    {
+     "name": "Flexor de cadera en zancada, 30 s por lado",
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Pecho en marco de puerta, 30 s",
+     "img": null
+    },
+    {
+     "name": "Bíceps suave: brazo estirado atrás con la mano en la pared, 30 s, sin dolor",
+     "img": null
+    },
+    {
+     "name": "Dorsal colgado de la barra, 30 s",
+     "img": "scap_pull"
+    }
+   ]
+  },
+  {
+   "code": "N",
+   "name": "Rutina normal · Calistenia 45",
+   "days": 0,
+   "gap": 0,
+   "elbow": false,
+   "desc": "La rutina completa A/B/C en superseries, con bloque final 3/7. Semana de descarga cada 21 sesiones.",
+   "criteria": "",
+   "sessions": [
+    {
+     "code": "N-A",
+     "name": "Día A",
+     "weekdays": [
+      1
+     ],
+     "upper": true,
+     "focus": "Tirón vertical, fondos, búlgara y nórdico",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "dominadas-pronas",
+         "name": "Dominadas pronas",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": false,
+         "rest": 70,
+         "load": true,
+         "img": "pullups",
+         "muscles": "Dorsal ancho, bíceps, espalda media",
+         "tips": "Parte desde colgado completo. Lleva los codos hacia los bolsillos traseros y el pecho a la barra. Sin balanceo.",
+         "easier": "Banda en la barra bajo las rodillas o pies, o solo bajadas lentas de 5 s.",
+         "harder": "Mochila con peso, pausa de 2 s arriba o bajada de 4 s.",
+         "safety": ""
+        },
+        {
+         "id": "fondos-en-paralelas",
+         "name": "Fondos en paralelas",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": false,
+         "rest": 70,
+         "load": true,
+         "img": "dips",
+         "muscles": "Pecho inferior, tríceps, hombro anterior",
+         "tips": "Hombros lejos de las orejas. Baja controlado en 2 s.",
+         "easier": "Banda entre las paralelas bajo las rodillas o rango más corto.",
+         "harder": "Mochila con peso o pausa abajo.",
+         "safety": "No los lleves al fallo total: la técnica rota aquí carga el hombro."
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "sentadilla-bulgara-con-mochila",
+         "name": "Sentadilla búlgara con mochila",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "bulgarian",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Torso firme, rodilla de adelante sigue la línea del pie. Empuja con el talón de adelante.",
+         "easier": "Sin peso, apoyándote con una mano.",
+         "harder": "Más peso, bajada de 3 s o 1,5 reps.",
+         "safety": ""
+        },
+        {
+         "id": "flexiones-con-pies-en-silla",
+         "name": "Flexiones con pies en silla",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": true,
+         "img": "decline_pushup",
+         "muscles": "Hombro anterior, pecho superior, tríceps",
+         "tips": "Cuerpo en tabla, no dejes caer la cadera. Mientras más alta la silla, más trabajan los hombros.",
+         "easier": "Pies en el suelo.",
+         "harder": "Silla más alta o mochila.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "curl-nordico-asistido",
+         "name": "Curl nórdico asistido",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          3,
+          6
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "nordic",
+         "muscles": "Isquiotibiales",
+         "tips": "Baja en 3–5 s con la cadera estirada. Empújate con las manos para volver arriba.",
+         "easier": "Banda en la barra enganchada al pecho para frenar, o rango corto.",
+         "harder": "Menos ayuda de las manos, bajada más lenta.",
+         "safety": "Nunca al fallo: es muy exigente para el isquio."
+        },
+        {
+         "id": "elevaciones-de-piernas-colgado",
+         "name": "Elevaciones de piernas colgado",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "hanging_raise",
+         "muscles": "Abdomen, flexores de cadera",
+         "tips": "Sin impulso. Pausa 1 s arriba y baja lento.",
+         "easier": "Rodillas al pecho.",
+         "harder": "Piernas rectas o piernas a la barra.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Final 3/7",
+       "type": "37",
+       "rounds": 1,
+       "items": [
+        {
+         "id": "remo-australiano-supino",
+         "name": "Remo australiano supino",
+         "type": "37",
+         "sets": 1,
+         "range": [
+          3,
+          7
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "inverted_row",
+         "muscles": "Bíceps, espalda media",
+         "tips": "Elige una inclinación con la que harías ~12–15 reps seguidas.",
+         "easier": "Más vertical.",
+         "harder": "Más horizontal.",
+         "safety": "Tras la tendinopatía: si el pliegue del codo molesta, cambia a agarre prono y avísale a Claude."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "N-B",
+     "name": "Día B",
+     "weekdays": [
+      3
+     ],
+     "upper": true,
+     "focus": "Chin-ups, flexiones, step-up alto y peso muerto a una pierna",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "chin-ups-dominadas-supinas",
+         "name": "Chin-ups (dominadas supinas)",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": false,
+         "rest": 70,
+         "load": true,
+         "img": "chinup",
+         "muscles": "Bíceps, dorsal ancho",
+         "tips": "Bajada controlada en 3 segundos. Rango completo: estira los brazos abajo.",
+         "easier": "Banda elástica en la barra.",
+         "harder": "Mochila con peso o pausa arriba.",
+         "safety": "Tras la tendinopatía: si el pliegue del codo molesta, cambia a agarre prono y avísale a Claude."
+        },
+        {
+         "id": "flexiones-con-mochila-o-en-deficit",
+         "name": "Flexiones con mochila o en déficit",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          15
+         ],
+         "perLeg": false,
+         "rest": 70,
+         "load": true,
+         "img": "pushup",
+         "muscles": "Pecho, tríceps, hombro",
+         "tips": "Manos sobre dos libros o en las paralelas bajas para bajar más el pecho.",
+         "easier": "Manos en altura (paralelas o silla).",
+         "harder": "Mochila, más déficit o pies en altura.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "step-up-alto-con-mochila",
+         "name": "Step-up alto con mochila",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "stepup",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Empuja solo con la pierna de arriba; no rebotes con la de atrás. Baja en 3 s.",
+         "easier": "Cajón más bajo.",
+         "harder": "Más peso en la mochila o cajón más alto.",
+         "safety": ""
+        },
+        {
+         "id": "remo-australiano-prono",
+         "name": "Remo australiano prono",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": true,
+         "img": "inverted_row",
+         "muscles": "Espalda media, romboides, deltoide posterior",
+         "tips": "Pausa de 1 s con el pecho en la barra. Cuerpo como tabla.",
+         "easier": "Cuerpo más vertical.",
+         "harder": "Cuerpo más horizontal, pies en silla o mochila en el pecho.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "peso-muerto-rumano-a-una-pierna",
+         "name": "Peso muerto rumano a una pierna",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": true,
+         "img": "sl_rdl",
+         "muscles": "Isquiotibiales, glúteos",
+         "tips": "Siente el estiramiento atrás del muslo. Cadera cuadrada, sin girarla.",
+         "easier": "Mano libre apoyada en la pared.",
+         "harder": "Más peso o pausa de 2 s abajo.",
+         "safety": ""
+        },
+        {
+         "id": "dead-bug",
+         "name": "Dead bug",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": false,
+         "img": "deadbug",
+         "muscles": "Core profundo, abdomen",
+         "tips": "Zona lumbar pegada al suelo todo el tiempo. Exhala al estirar. Reps por lado.",
+         "easier": "Mueve solo las piernas.",
+         "harder": "Banda entre las manos o pausa de 3 s estirado.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Final 3/7",
+       "type": "37",
+       "rounds": 1,
+       "items": [
+        {
+         "id": "flexiones-diamante",
+         "name": "Flexiones diamante",
+         "type": "37",
+         "sets": 1,
+         "range": [
+          3,
+          7
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "diamond",
+         "muscles": "Tríceps, pecho",
+         "tips": "Si 25 reps en total es mucho, hazlas con las manos en altura.",
+         "easier": "Manos en altura.",
+         "harder": "Pies en altura.",
+         "safety": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "N-C",
+     "name": "Día C",
+     "weekdays": [
+      5
+     ],
+     "upper": true,
+     "focus": "Dominadas pesadas, fondos inclinados, sentadilla a una pierna y hip thrust",
+     "blocks": [
+      {
+       "label": "Superserie 1",
+       "type": "ss",
+       "rounds": 4,
+       "items": [
+        {
+         "id": "dominadas-pronas-con-mochila",
+         "name": "Dominadas pronas con mochila",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          5,
+          8
+         ],
+         "perLeg": false,
+         "rest": 70,
+         "load": true,
+         "img": "pullups",
+         "muscles": "Dorsal ancho, bíceps, espalda media",
+         "tips": "Día pesado. Si aún no haces 10 dominadas limpias sin peso, hazlas sin mochila.",
+         "easier": "Sin mochila o con menos peso.",
+         "harder": "Sube 2–3 kg en la mochila.",
+         "safety": "No llegues al fallo total con peso: deja 1 repetición en reserva."
+        },
+        {
+         "id": "fondos-con-torso-inclinado",
+         "name": "Fondos con torso inclinado",
+         "type": "reps",
+         "sets": 4,
+         "range": [
+          8,
+          12
+         ],
+         "perLeg": false,
+         "rest": 70,
+         "load": true,
+         "img": "dips_chest",
+         "muscles": "Pecho, tríceps",
+         "tips": "Inclina el torso ~30° adelante para cargar más el pecho.",
+         "easier": "Banda de asistencia.",
+         "harder": "Mochila con peso.",
+         "safety": "No los lleves al fallo total."
+        }
+       ]
+      },
+      {
+       "label": "Superserie 2",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "sentadilla-a-una-pierna-a-banco",
+         "name": "Sentadilla a una pierna a banco",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          6,
+          10
+         ],
+         "perLeg": true,
+         "rest": 60,
+         "load": true,
+         "img": "box_pistol",
+         "muscles": "Cuádriceps, glúteos",
+         "tips": "Bajada de 2–3 s. No te dejes caer en el banco: tócalo apenas.",
+         "easier": "Banco más alto o agarrado a la paralela.",
+         "harder": "Banco más bajo, mochila al frente o pistol completo.",
+         "safety": ""
+        },
+        {
+         "id": "face-pull-con-banda",
+         "name": "Face pull con banda",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          12,
+          15
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "facepull",
+         "muscles": "Deltoide posterior, manguito rotador",
+         "tips": "Al final rota los brazos hacia afuera, como mostrando los bíceps.",
+         "easier": "Banda más suave.",
+         "harder": "Banda más dura o pausa de 2 s.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Superserie 3",
+       "type": "ss",
+       "rounds": 3,
+       "items": [
+        {
+         "id": "hip-thrust-a-una-pierna-con-mochila",
+         "name": "Hip thrust a una pierna con mochila",
+         "type": "reps",
+         "sets": 3,
+         "range": [
+          10,
+          15
+         ],
+         "perLeg": true,
+         "rest": 45,
+         "load": true,
+         "img": "hip_thrust",
+         "muscles": "Glúteos, isquiotibiales",
+         "tips": "La foto muestra la versión con barra: tú hazla a una pierna con la mochila sobre la cadera.",
+         "easier": "Con las dos piernas.",
+         "harder": "Más peso o pausa de 3 s.",
+         "safety": ""
+        },
+        {
+         "id": "tuck-l-sit-en-paralelas",
+         "name": "Tuck L-sit en paralelas",
+         "type": "time",
+         "sets": 3,
+         "range": [
+          15,
+          25
+         ],
+         "perLeg": false,
+         "rest": 45,
+         "load": false,
+         "img": "tuck_lsit",
+         "muscles": "Core, flexores de cadera, tríceps",
+         "tips": "Empuja las paralelas hacia abajo, lejos de las orejas. Pasa a L-sit completo al sostener 25 s.",
+         "easier": "Una pierna estirada a la vez.",
+         "harder": "L-sit completo.",
+         "safety": ""
+        }
+       ]
+      },
+      {
+       "label": "Final 3/7",
+       "type": "37",
+       "rounds": 1,
+       "items": [
+        {
+         "id": "curl-de-biceps-con-banda",
+         "name": "Curl de bíceps con banda",
+         "type": "37",
+         "sets": 1,
+         "range": [
+          3,
+          7
+         ],
+         "perLeg": false,
+         "rest": 60,
+         "load": false,
+         "img": "band_curl",
+         "muscles": "Bíceps",
+         "tips": "Elige una banda con la que harías ~12–15 reps seguidas.",
+         "easier": "Banda más suave.",
+         "harder": "Banda más dura o pisarla más corta.",
+         "safety": "Tras la tendinopatía: si el pliegue del codo molesta, cambia a agarre prono y avísale a Claude."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "warmup": [
+    {
+     "name": "Trote suave en el lugar",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "Sentadillas al aire lentas",
+     "dur": 60,
+     "img": "air_squat"
+    },
+    {
+     "name": "Círculos de brazos (10 adelante, 10 atrás)",
+     "dur": 30,
+     "img": "arm_circles"
+    },
+    {
+     "name": "Círculos de muñeca",
+     "dur": 30,
+     "img": "wrist_circles"
+    },
+    {
+     "name": "Dislocaciones de hombro con banda suave × 10",
+     "dur": 30,
+     "img": null
+    },
+    {
+     "name": "Band pull-aparts con banda suave × 10 (codos rectos)",
+     "dur": 30,
+     "img": "pull_apart"
+    },
+    {
+     "name": "Colgado relajado 20–30 s",
+     "dur": 30,
+     "img": "scap_pull"
+    },
+    {
+     "name": "Balanceos de pierna adelante-atrás y laterales × 10 por lado",
+     "dur": 60,
+     "img": null
+    },
+    {
+     "name": "World's greatest stretch × 5 por lado",
+     "dur": 30,
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Puentes de glúteo con pausa × 10",
+     "dur": 30,
+     "img": "glute_bridge"
+    },
+    {
+     "name": "Gato-camello × 8",
+     "dur": 30,
+     "img": "cat"
+    }
+   ],
+   "cooldown": [
+    {
+     "name": "Flexor de cadera en zancada, 30 s por lado",
+     "img": "hip_flexor"
+    },
+    {
+     "name": "Pecho en marco de puerta, 30 s",
+     "img": null
+    },
+    {
+     "name": "Dorsal colgado de la barra, 30 s",
+     "img": "scap_pull"
+    }
+   ]
+  }
+ ]
+}

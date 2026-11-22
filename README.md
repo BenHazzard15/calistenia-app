@@ -9,7 +9,8 @@ Cada vez que se sube un cambio a `main`, GitHub compila la app sola. El APK qued
 ## Estructura
 
 - `www/` — la app (HTML, CSS, JS, fotos). Funciona sin internet.
-- `www/data.js` — ejercicios, días, calentamiento. Para cambiar la rutina, se edita aquí.
+- `www/default-program.js` — rutina incluida (generada con `tools/build_program.py`).
+- `www/program.js` — lector de rutinas en Excel. En la app: Ajustes → Cargar rutina desde Excel.
 - `.github/workflows/build-apk.yml` — compila el APK con Capacitor.
 - `ci/debug.keystore` — firma fija para que cada versión se instale encima de la anterior sin perder datos.
 
